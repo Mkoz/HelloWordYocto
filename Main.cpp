@@ -5,7 +5,7 @@
 #include "HelloWorld.h"
 
 int main(int argc, char *argv[]) {
-
+aaaa
 #ifdef MKOZYREV_COMMON_LAYER
   printf("Absolutelly usless app for common layer\n");
 #elif defined(MKOZYREV_SEPARATE_LAYER)

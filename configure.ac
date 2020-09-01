@@ -19,6 +19,8 @@ AM_PROG_LIBTOOL
 AC_DISABLE_STATIC
 AC_ENABLE_SHARED
 
+AC_PROG_CXX
+
 # Checks for header files.
 
 # Checks for typedefs, structures, and compiler characteristics.

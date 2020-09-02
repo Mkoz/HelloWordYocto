@@ -31,11 +31,3 @@ AC_PROG_CXX
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
 
-AC_ARG_ENABLE([common],
-[  --enable-common    Turn on debugging],
-[case "${enableval}" in
-  yes) common=true ;;
-  no)  common=false ;;
-  *) AC_MSG_ERROR([bad value ${enableval} for --enable-common]) ;;
-esac],[common=false])
-AM_CONDITIONAL(COMMON_LAYER, test x$common = xtrue)

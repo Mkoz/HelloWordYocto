@@ -38,4 +38,4 @@ AC_ARG_ENABLE([common],
   no)  common=false ;;
   *) AC_MSG_ERROR([bad value ${enableval} for --enable-common]) ;;
 esac],[common=false])
-AM_CONDITIONAL(MKOZYREV_COMMON_LAYER, test x$common = xtrue)
+AM_CONDITIONAL(COMMON_LAYER, test x$common = xtrue)
